@@ -1,0 +1,41 @@
+.app-container {
+  background-color: #475569;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.layout-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.layout-options {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.option-item {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.checkbox {
+  height: 16px;
+  width: 16px;
+}
